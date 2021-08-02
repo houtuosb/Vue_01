@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#todoapp {
+    width: 300px;
+    margin: 5px auto;
+    box-shadow: 0px 3px 10px 2px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font: normal 200 34px  '微软雅黑';
+    text-align: center;
+    color: rgba(219,82,82);
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+li {
+    list-style: none;
+    
+}
+.new-todo {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    color: rgb(88,88,88);
+    box-sizing: border-box;
+    border: 1px solid rgba(236,236,236);
+}
+
+.new-todo:focus {
+    outline: none;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(236,236,236);
+    background-color: white;
+}
+
+.footer span {
+    font-size: 12px;
+    color: rgb(131, 131, 131);
+    float: left;
+    line-height: 40px;
+}
+
+.left {
+    margin-left: 10px;
+}
+
+.right {
+    margin-left: 170px;
+}
+
+.todo {
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: rgb(88,88,88);
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid rgb(236,236,236);
+    background-color: white;
+}
+
+.view {
+    position: relative;
+    margin-left: 10px;
+}
+
+.view label {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    overflow: hidden;   
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.destroy {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    outline: none;
+    border: 1px solid rgb(236,236,236);
+    color: rgb(255,111,111);
+    display: none;
+}
+
+.view:hover .destroy {
+    display: block;
+}
+
+.footer button {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    background-color: white;
+    border: 0px;
+    outline: none;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: rgb(131,131,131);
+}
